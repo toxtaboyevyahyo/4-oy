@@ -1,0 +1,8 @@
+.header{
+    @include container;
+    @include d-flex;
+    padding-top: 40px;
+    &_left{
+        @include d-flex
+    }
+}
